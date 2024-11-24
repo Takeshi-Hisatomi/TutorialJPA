@@ -22,8 +22,11 @@
                 <th>人口</th>
                 <td><input type="text" name="population" th:value="*{population}"></td>
             </tr>
+            <tr>
+                <td><button type="submit">送信</tdbutton></td>
+                <td><a th:href="@{/country/list}">一覧に戻る</a></td>
+            </tr>
         </table>
-        <button type="submit">送信</button>
     </form>
 </body>
 
